@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 
-driver = webdriver.Chrome('C:/Users/Gaurav Sachdev/Desktop/Code/Python/Script/chromedriver')  # Optional argument, if not specified will search path.
+driver = webdriver.Chrome('PUT the full path of the chromedriver you downloaded here')  # Optional argument, if not specified will search path.
 driver.set_page_load_timeout(10)
 c=0
 t=True
