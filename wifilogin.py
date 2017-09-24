@@ -18,6 +18,8 @@ while t==True:
        username= driver.find_element_by_id('LoginUserPassword_auth_username')
        us='Enter Username'
        pa='Enter Password'
+       us=input("Enter Username");
+       pa=input("Enter Password");
        username.send_keys(us)
        password= driver.find_element_by_id('LoginUserPassword_auth_password')
        password.send_keys(pa)
